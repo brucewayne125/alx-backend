@@ -21,7 +21,7 @@ babel = Babel(app)
 
 
 @babel.localeselector
-def get_local():
+def get_locale():
     return request.accept_languages.best_match(app.config["LANGUAGES"])
 
 
@@ -31,5 +31,4 @@ def index():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
-~                         
+    app.run(debug=True)                         
