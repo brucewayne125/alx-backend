@@ -2,7 +2,7 @@
 
 
 from flask import Flask, render_template
-from flask_babelex import Babel
+from flask_babel import Babel
 
 class config:
     LANGUAGES = ["en", "fr"]
