@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# 0-app.py: A simple Flask web application with a single route
 # Flask - the core class from the
 # Flask framework that helps set up a web application.
 # render_template - function used to render HTML templates
